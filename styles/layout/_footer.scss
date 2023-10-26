@@ -23,6 +23,13 @@
 
     li {
       margin-bottom: 16px;
+      transition: .3s ease-in-out;
+
+      &:hover {
+        color: #525252;
+        transition: .3s ease-in-out;
+        cursor: pointer;
+      }
     }
   }
 }
