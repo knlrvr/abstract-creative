@@ -1,6 +1,10 @@
 .text-columns {
   @include page-grid;
 
+  span {
+    font-weight: bold;
+  }
+
   .button {
     margin: auto;
     margin-top: 8rem;
